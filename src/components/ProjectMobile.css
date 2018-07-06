@@ -1,0 +1,38 @@
+.project-mobile-search {
+    display: flex;
+}
+.project-mobile-head {
+    display: block;
+}
+.project-mobile-category {
+    float: none;
+    margin: 20px;
+}
+.project-button-mobile {
+    padding: 10px;
+    border-radius: 5px;
+    background: #ffffff85;
+    text-align: center;
+    color: #060606;
+    border: 2px solid #ececec;
+}
+.project-foot-mobile {
+    display: block;
+    height: 100%;
+}
+.project-down {
+    float: right;
+    position: absolute;
+    display: block;
+    right: 20px
+}
+.project-middle-mobile {
+    display: block;
+    margin: 20px;
+}
+.project-left-mobile ul {
+    font-size: 20px;
+}
+.last-action {
+    padding-left: 30px;
+}

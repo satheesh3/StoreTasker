@@ -1,0 +1,124 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
+
+.main-block {
+    border: 1px solid #ececec;
+    width: 70%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+@media print, screen and (max-width:1024px) {
+    .main-block {
+        width: 100%;
+    }
+}
+.filter {
+    width: 30%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+tr {
+    border-spacing: 15px;
+}
+td {
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+td p {
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.home-wrapper {
+    margin: auto;
+    display: flex;
+    margin: 20px;
+}
+.searchbar {
+    width: 70%;
+    border-left: 1px solid #ececec;
+    display: flex;
+    flex-direction: row;
+}
+.searchbar span {
+    margin: 10px;
+    color: #ececec;
+}
+.search-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    box-sizing : border-box;
+    border: none;
+    outline: none;
+}
+.headings {
+    flex-direction: row;
+    align-content: space-around;
+}
+.home-border {
+    border: 1px solid #ececec;
+}
+.heading-items {
+    width: 100%;
+}
+.table-header {
+    text-align: start;
+}
+.text-hide {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column
+}
+tr.table-row {
+    border: 1px solid #ececec;
+}
+.table-row td {
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+}
+.table-data {
+    padding: 10px;
+}
+th {
+    padding: 10px;
+}
+.category {
+    background: #ececec;
+    width: fit-content;
+    padding: 0px 5px 0px 5px;
+    font-weight: 400;
+}
+.price {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: fit-content;
+}
+.font-color {
+    color: #5e94ff;
+}
+.search {
+    font-weight: 800;
+}
+.search a {
+    text-decoration: none;
+}
+.search span {
+    padding-right: 5px;
+    font-weight: 400;
+}
+.expert-name {
+    font-weight: 400;
+}
